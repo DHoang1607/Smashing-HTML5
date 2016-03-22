@@ -1,0 +1,83 @@
+* {
+    font-family: 'Trebuchet MS';
+}
+
+::selection {
+    color: #fff;
+    background-color: #F1CB6D;
+}
+
+
+/*[class^="col-"] {
+    margin: 0;
+    padding: 0;
+}*/
+
+body {
+    background-color: #F7F6F2;
+}
+
+.container-fluid {
+    width: 800px;
+    padding: 0;
+}
+/*.col-lg-6 {
+    padding-right: 28px;
+    padding-left: 12px;
+}*/
+
+header {
+    margin: 22px 0 25px 11px;
+}
+
+    header h1 {
+        font-size: 50px;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    header h4 {
+        font-size: 18px;
+        font-weight: lighter;
+        margin: 2px 0 0 0;
+    }
+
+    header a {
+        text-decoration: none;
+        color: #000;
+    }
+
+        header a:hover {
+            color: #C74451;
+            text-decoration: none;
+        }
+
+.navbar {
+    min-height: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    padding: 10px 24px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar li:hover {
+    background-color: #c74451;
+}
+
+.home {
+    background-color: #C74451;
+    border-radius: 5px 0 0 5px;
+}
+
+.featured-article {
+    padding-top: 12px;
+    padding-left: 17px;
+}
+
+
+
