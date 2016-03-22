@@ -1,0 +1,505 @@
+.clearfix {
+    clear: both;
+}
+
+body {
+    margin: 0;
+    background-color: #F7F7F7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: serif;
+    color: #00713D;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+h4 {
+    font-family: serif;
+    color: #45AA42;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.first-nav {
+    background-color: #00713D;
+}
+
+.first-nav-container {
+    width: 70%;
+    margin: auto;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 3px;
+    padding: 0 0 0 25px;
+}
+
+.first-nav-container i {
+    font-size: 18px;
+    color: #fff;
+}
+
+.first-nav-container > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 21px 0 0;
+    float: right;
+}
+
+    .first-nav-container > ul > li {
+        display: inline-block;
+        padding: 15px 0;
+        border-left: 1px solid #00582F;
+    }
+
+
+.first-nav-container li:first-child, .first-nav-container li:nth-child(3), .first-nav-container li:nth-child(4) {
+    border: none;
+}
+
+.first-nav-container > ul > li:first-of-type {
+    padding-right: 20px;
+}
+
+.first-nav-container > ul > li:nth-child(2) {
+    padding-right: 26px;
+    padding-left: 24px;
+}
+
+.first-nav-container > ul > li:nth-child(3) {
+    padding-right: 23px;
+}
+
+.first-nav-container > ul > li:nth-child(4) {
+    padding-right: 20px;
+}
+
+.first-nav-container > ul > li:nth-child(5) {
+    padding-right: 19px;
+    padding-left: 24px;
+}
+
+.first-nav-container > ul > li:nth-child(6) {
+    padding: 15px 5px 16px 24px;
+    padding-right: 5px;
+    padding-left: 24px;
+}
+
+
+.first-nav-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+    .first-nav-container a:hover {
+        color: #e6e6e6;
+    }
+
+.first-nav-container i:hover {
+    color: #fff;
+}
+
+i.fa.fa-caret-down {
+    font-size: 12px;
+}
+
+.my-account li {
+    float: none;
+    border: none;
+}
+
+    .my-account li:first-child {
+        border-bottom: 1px solid #DDDDDD;
+    }
+
+.second-nav {
+    background-color: #45AA42;
+    font-size: 14px;
+}
+
+.second-nav-container {
+    width: 67%;
+    margin: 0 auto;
+}
+
+    .second-nav-container > ul {
+        margin: 0;
+        padding-right: 4px;
+        float: right;
+    }
+
+    .second-nav-container li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 17px 13px;
+        text-transform: uppercase;
+    }
+
+    .second-nav-container a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+    }
+
+    .second-nav-container > ul > li > a:hover {
+        color: #E6E6E6;
+    }
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    min-width: 160px;
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+    border-bottom: 4px solid #DDDDDD;
+    padding: 0;
+    top: 49.5px;
+    z-index: 2;
+    right: 0;
+}
+
+    .dropdown-content a {
+        color: #262626;
+        display: block;
+        text-transform: none;
+        padding: 0 15px;
+        white-space: nowrap;
+        line-height: 15px;
+    }
+
+    .dropdown-content li {
+        display: block;
+        padding: 6px;
+    }
+
+        .dropdown-content li:first-child {
+            margin-top: 5px;
+        }
+
+        .dropdown-content li:last-child {
+            margin-bottom: 5px;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+    .dropdown:hover .dropdown-content li:hover {
+        background-color: #F7F7F7;
+    }
+
+
+
+.account li {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+    .account li:first-child {
+        margin-top: 0;
+        padding: 10px;
+    }
+
+.account a:hover {
+    color: #000;
+}
+
+.sign-in-btn a {
+    text-align: center;
+    padding: 12px;
+    background-color: #45AA42;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+    .sign-in-btn a:hover {
+        background-color: #368534;
+        color: #DDDDDD;
+    }
+
+
+main {
+    width: 67%;
+    margin: auto;
+}
+
+
+.main-body {
+    height: 362px;
+    padding: 14px 15px;
+    background-color: #fff;
+    margin: 22px 2px 1px 3px;
+    border-bottom: 4px solid #DDDDDD;
+    position: relative;
+}
+
+.quote {
+    position: absolute;
+    top: 24px;
+    left: 44px;
+}
+
+.main-body h3 {
+    font-size: 35px;
+    line-height: 3px;
+    margin-top: 37px;
+}
+
+.main-body h4 {
+    font-size: 35px;
+    line-height: 3px;
+    margin-bottom: 32px;
+    margin-top: 45px;
+}
+
+.main-body span {
+    font-size: 20px;
+    font-family: serif;
+    color: #5F5F5F;
+    line-height: 3px;
+}
+
+.main-body .button {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    background-color: #45AA42;
+    padding: 11px 11px 11px 12px;
+    border: none;
+    text-decoration: none;
+    margin-top: 144px;
+    margin-left: 1px;
+}
+
+.link {
+
+    display: inline-block;
+    width: 320px;
+    padding: 22px 14px 15px 14px;
+    border-bottom: 4px solid #DDDDDD;
+    background-color: #fff;
+    margin-top: 22px;
+    margin-right: 30px;
+}
+
+    .link img {
+        width: 100%;
+    }
+
+
+    .link a {
+        display: block;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        background-color: #45AA42;
+        padding: 11px 11px 11px 12px;
+        text-decoration: none;
+        margin-top: -5px;
+    }
+
+        .link a:hover {
+            background-color: #3A8F37;
+        }
+
+    .link:last-child {
+        margin-right: 0;
+    }
+
+.main-links {
+    margin-left: 1px;
+}
+
+
+
+.about {
+    background-color: #fff;
+    border-bottom: 4px solid #DDDDDD;
+    padding: 15px;
+    margin-top: 22px;
+    line-height: 20px;
+    color: #333;
+}
+
+.about-container {
+    width: 74%;
+    float: left;
+    font-size: 14px;
+}
+
+.about h4 {
+    font-family: arial;
+    font-size: 30px;
+    margin-top: 46px;
+    margin-bottom: 29px;
+}
+
+.about h3 {
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 14px;
+    font-size: 24px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.about img {
+    width: 250px;
+    height: 250px;
+    float: right;
+    border-bottom: 4px solid #DDDDDD;
+    margin-top: 20px;
+}
+
+.about a {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    background-color: #45AA42;
+    padding: 11px 11px 11px 12px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #028046;
+    margin: auto;
+    margin-top: 60px;
+    font-size: 14px;
+}
+
+    footer h6 {
+        font-weight: bold;
+        font-size: 14px;
+        font-family: arial;
+        margin: 21px 0 16px 0;
+        text-transform: uppercase;
+    }
+
+    footer ul {
+        list-style-type: none;
+    }
+
+    footer i {
+        display: inline-block;
+        color: #fff;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+.first-footer {
+    background-color: #028046;
+}
+
+.first-footer-container {
+    padding: 8px 0 31px 0;
+    overflow: auto;
+    margin-left: 260px;
+}
+
+.footer-link {
+    display: inline-block;
+    width: 224px;
+    float: left;
+    color: #fff;
+    line-height: 20px;
+    margin: 2px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.social-media i {
+    font-size: 20px;
+    padding: 11px 14px 10px 0;
+}
+
+.first-footer ul {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.first-footer li {
+    display: inline-block;
+    float: left;
+}
+
+.about-me {
+    width: 260px;
+}
+
+    .about-me i {
+        padding-right: 16px;
+    }
+
+.second-footer {
+    background-color: #00713D;
+}
+
+.second-footer-container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 17px;
+}
+
+.credit-card {
+    overflow: auto;
+    padding: 31px 68px 0 0;
+}
+
+    .credit-card ul {
+        float: right;
+        margin: 0;
+    }
+
+    .credit-card li {
+        display: inline-block;
+    }
+
+.copyright p {
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.copyright ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.copyright li {
+    display: inline-block;
+}
+
+
+.copyright a {
+    text-decoration: none;
+    color: #fff;
+}
