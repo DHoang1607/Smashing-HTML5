@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Index - Greenx Inc</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="StyleSheet.css" />
+
+</head>
+<body>
+    <div class="container-fluid">
+        <nav>
+            <div class="first-nav navbar navbar-default">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="#"><img src="http://greenteahp.com/Content/images/logo.png" class="logo"></a>
+
+                        </div>
+                        <div class="col-xs-8">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#"><span class="fa fa-youtube-play"></span></a></li>
+                                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fa fa-facebook icon"></span></a></li>
+                                <li><a href="#"><span class="fa fa-shopping-cart "></span> Cart</a></li>
+                                <li><a href="#">My Account <span class="fa fa-caret-down"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-nav navbar navbar-default">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Science of Green Tea</a></li>
+                                <li><a href="#">Join</a></li>
+                                <li><a href="#">Mall Locations</a></li>
+                                <li><a href="#">68 Million</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+    <main class="container">
+        <div class="row">
+            <section class="main-body col-xs-12">
+                <img src="http://greenteahp.com/Content/images/banner01.png" />
+                <div class="quote">
+                    <h3>Change The Way</h3>
+                    <h4>You Look, Feel, and Age.</h4>
+                    <span>Increase energy, look refreshed and feel rejuvinated in just seven days.</span>
+                    <br />
+                    <a href="#" class="btn btn-success" role="button">Take the 7-day challenge <i class="fa fa-chevron-right"></i></a>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+</body>
+</html>
+
+
+
