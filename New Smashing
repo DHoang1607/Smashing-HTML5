@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Smashing HTML5!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="StyleSheet.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="body-container col-md-8 col-md-offset-2">
+                <header>
+                    <a href="#">
+                        <h1>Smashing HTML5!</h1>
+                        <h4>HTML5 in the year <s>2022</s> 2009</h4>
+                    </a>
+                </header>
+                <nav class="navbar navbar-inverse">
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="home"><a href="#">home</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                    </div>
+
+                </nav>
+                <main>
+                    <article class="featured-container">
+                        <div class="row">
+                            <div class="featured-article col-xs-12 col-md-6">
+                                <h3>Featured Article</h3>
+                                <h4><a href="#">HTML5 in Smashing Magazine!</a></h4>
+                                <p>Discover how to use Graceful Degradation and Progressive Enhancement techniques to achieve an outstanding, cross-browser <a href="#">HTML5</a>  and <a href="#">CSS3</a> website today!</p>
+                            </div>
+                            <div class="col-xs-12 col-md-5">
+                                <img src="https://media-mediatemple.netdna-ssl.com/wp-content/uploads/images/smashing-html5/files/images/temp/sm-logo.gif" />
+                            </div>
+                        </div>
+                    </article>
+                    <section class="articles">
+                        <article class="article">
+                            <div class="row">
+                                <div class="article-date col-xs-3">
+                                    10th October 2005
+                                    <br />
+                                    By <a href="#">Enrique Ram&iacute;rez</a>
+                                </div>
+                                <div class="article-content col-xs-9">
+                                    <h5>This be the title</h5>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a>  dapibus blandit nec et leo. Ut ut malesuada tellus.
+                                </div>
+                            </div>
+                        </article>
+                        <article class="article">
+                            <div class="row">
+                                <div class="article-date col-xs-3">
+                                    10th October 2005
+                                    <br />
+                                    By <a href="#">Enrique Ram&iacute;rez</a>
+                                </div>
+                                <div class="article-content col-xs-9">
+                                    <h5>This be the title</h5>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a>  dapibus blandit nec et leo. Ut ut malesuada tellus.
+                                </div>
+                            </div>
+                        </article>
+                        <article class="article">
+                            <div class="row">
+                                <div class="article-date col-xs-3">
+                                    10th October 2005
+                                    <br />
+                                    By <a href="#">Enrique Ram&iacute;rez</a>
+                                </div>
+                                <div class="article-content col-xs-9">
+                                    <h5>This be the title</h5>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a>  dapibus blandit nec et leo. Ut ut malesuada tellus.
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    <section class="links">
+                        <div class="row">
+                            <div class="blogroll col-xs-12 col-sm-9">
+                                <h5>blogroll</h5>
+                                <ul>
+                                    <li><a href="#">HTML5 Doctor</a></li>
+                                    <li><a href="#">W3C</a></li>
+                                    <li><a href="#">HTML5 Doctor</a></li>
+                                    <li><a href="#">W3C</a></li>
+                                    <li><a href="#">HTML5 Doctor</a></li>
+                                    <li><a href="#">W3C</a></li>
+                                    <li><a href="#">HTML5 Spec (working draft)</a></li>
+                                    <li><a href="#">Wordpress</a></li>
+                                    <li><a href="#">HTML5 Spec (working draft)</a></li>
+                                    <li><a href="#">Wordpress</a></li>
+                                    <li><a href="#">HTML5 Spec (working draft)</a></li>
+                                    <li><a href="#">Wordpress</a></li>
+                                    <li><a href="#">Smashing Magazine</a></li>
+                                    <li><a href="#">Wikipedia</a></li>
+                                    <li><a href="#">Smashing Magazine</a></li>
+                                    <li><a href="#">Wikipedia</a></li>
+                                    <li><a href="#">Smashing Magazine</a></li>
+                                    <li><a href="#">Wikipedia</a></li>
+                                </ul>
+                            </div>
+                            <div class="social col-xs-12 col-sm-3">
+                                <h5>social</h5>
+                                <ul>
+                                    <li><a href="#"><img src="https://media-mediatemple.netdna-ssl.com/wp-content/uploads/images/smashing-html5/files/images/icons/delicious.png" /> delicious</a></li>
+                                    <li><a href="#"><img src="https://media-mediatemple.netdna-ssl.com/wp-content/uploads/images/smashing-html5/files/images/icons/digg.png" /> digg</a></li>
+                                    <li><a href="#"><img src="https://media-mediatemple.netdna-ssl.com/wp-content/uploads/images/smashing-html5/files/images/icons/facebook.png" /> facebook</a></li>
+                                    <li><a href="#"><img src="https://media-mediatemple.netdna-ssl.com/wp-content/uploads/images/smashing-html5/files/images/icons/lastfm.png" /> last.fm</a></li>
+                                    <li><a href="#"><img src="https://media-mediatemple.netdna-ssl.com/wp-content/uploads/images/smashing-html5/files/images/icons/rss.png" /> rss</a></li>
+                                    <li><a href="#"><img src="https://media-mediatemple.netdna-ssl.com/wp-content/uploads/images/smashing-html5/files/images/icons/twitter.png" /> twitter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </section>
+                </main>
+                <footer>
+                    <div class="about">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h5><a href="#">Smashing Magazine</a></h5>
+                                <p>Amazing Magazine</p>
+                            </div>
+                            <div class="smashing-icon  col-sm-1">
+                                <img src="https://media-mediatemple.netdna-ssl.com/wp-content/uploads/images/smashing-html5/files/images/avatar.gif" />
+                            </div>
+                            <div class="col-sm-8">
+                                <p>Smashing Magazine is a website and blog that offers resources and advice to web developers and web designers. It was founded by Sven Lennartz and Vitaly Friedman.</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <p class="publish ">2005-2009 <a href="#">Smashing Magazine</a>.</p>
+
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
