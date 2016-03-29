@@ -11,36 +11,14 @@
     background-color: #F1CB6D;
 }
 
-@media all and (min-width: 768px) {
-    .collapse {
-        padding: 0;
-    }
-    .container {
-        padding: 0;
-    }
-    .body-container {
-        padding: 0;
-    }
-}
-@media all and (max-width: 768px) {
-    .social {
-        margin-top: 10px;
-    }
-    .featured-container img {
-        margin-left: 0!important;
-    }
-}
-
-
 body {
     background-color: #F7F6F2;
+    color: #000305;
 }
-
-
-
 
 header {
     margin: 22px 0 24px 11px;
+    display: inline-block;
 }
 
     header h1 {
@@ -82,12 +60,10 @@ header {
 .navbar li:hover {
     background-color: #c74451;
 }
-/*.navbar-collapse {
-    padding: 0;
-}*/
-.navbar-collapse a {
+
+/*.navbar-collapse a {
     padding-left: 15px;
-}
+}*/
 
 .home {
     background-color: #C74451;
@@ -101,7 +77,7 @@ header {
 }
 
     .featured-container img {
-        margin: 5px 5px 5px 65px;
+        margin: 12px 0 0 20px;
         border: 2px solid #EEEEEE;
     }
 
@@ -120,12 +96,12 @@ header {
     .featured-container h3 {
         color: #C74451;
         font-size: 24px;
-        margin: 0;
+        margin: 1px 0 0 0;
         font-weight: lighter;
     }
 
     .featured-container h4 {
-        margin: 6px 0;
+        margin: 8px 0 9px 0;
         font-weight: lighter;
         font-size: 20px;
         padding: 0 1px;
@@ -143,44 +119,45 @@ header {
         text-decoration: none;
         text-shadow: 0 1px #000;
     }
-    .featured-article {
-        padding-right: 0;
-    }
 
-.articles{
+.featured-container > div > div:first-of-type {
+    padding-right: 0;
+}
+
+.articles {
     background-color: #ffffff;
     margin: 28px 0;
     padding: 20px;
     border-radius: 12px;
 }
 
-.article {
-    padding: 15px;
-    font-size: 14px;
-    line-height: 1.429;
-    border-bottom: 1px solid #EEEEEE;
-}
-
-    .article:last-child {
-        border: none;
+    .articles article {
+        padding: 21px 15px;
+        font-size: 14px;
+        line-height: 1.429;
+        border-bottom: 1px solid #EEEEEE;
     }
 
-    .article:hover {
-        background-color: #C74451;
-        color: #ffffff;
-    }
+        .articles article:last-of-type {
+            border: none;
+        }
 
-    .article a {
+        .articles article:hover {
+            background-color: #C74451;
+            color: #ffffff;
+        }
+
+    .articles a {
         color: #C74451;
         padding: 0 1px;
         text-decoration: underline;
     }
 
-        .article a:hover {
+        .articles a:hover {
             text-decoration: none;
         }
 
-    .article h5 {
+    .articles h5 {
         margin: 0;
         font-size: 20px;
         color: #C74451;
@@ -189,10 +166,18 @@ header {
         padding: 0 1px;
     }
 
-    .article:hover h5, .article:hover a {
+    .articles article:hover h5, .articles article:hover a {
         color: #F6CF74;
         text-shadow: 0 1px #000;
     }
+
+.article-content {
+    padding: 0 0 0 10px;
+}
+
+.articles > article > div > time {
+    padding: 0 0 0 10px;
+}
 
 
 .blogroll {
@@ -213,19 +198,16 @@ header {
 .social {
     line-height: 22px;
 }
+
     .social ul {
         list-style-type: none;
         padding: 0;
-        margin-top: 0px;
+        margin-top: 0;
     }
 
-    /*.social div {
-        float: left;
-        margin-top: 3px;
-        margin-right: 5px;
-    }*/
     .social img {
         margin-bottom: 2px;
+        margin-right: 6px;
     }
 
 
@@ -237,11 +219,12 @@ header {
         text-decoration: none;
         color: #444;
         display: block;
+        line-height: 20px;
     }
 
     .links li {
-        border-bottom: 1px solid #F4E3E3;
-        box-shadow: 0 6px 6px -6px #fff;
+        border-bottom: 0.25px solid #F4E3E3;
+        box-shadow: 0 7px 1px -6px #fff;
     }
 
         .links li:nth-child(6n) {
@@ -253,7 +236,7 @@ header {
         font-size: 20px;
         color: #C74451;
         font-weight: lighter;
-        margin: 4px;
+        margin: 0 4px 4px 4px;
     }
 
 .blogroll a:hover, .social a:hover {
@@ -268,11 +251,26 @@ header {
 
 .about {
     background-color: #ffffff;
-    padding: 15px;
-    margin-top: 24px;
+    padding: 19px;
+    margin-top: 28px;
     border-radius: 12px;
 }
 
+    .about a {
+        text-decoration: none;
+    }
+
+    .about > div > div:first-child {
+        padding: 1px 15px 0 16px;
+    }
+
+    .about > div > div:nth-child(2) {
+        padding: 7px 0 0 3px;
+    }
+
+    .about > div > div:nth-child(3) {
+        padding: 2px 13px 0 13px;
+    }
 
 footer p {
     font-size: 14px;
@@ -287,16 +285,18 @@ footer h5 {
     line-height: 24px;
 }
 
-    footer h5 > a {
-        text-decoration: none;
-    }
+.about a > h5 {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 2px 0 0 1px;
+}
 
-    footer h5:hover, footer a:hover {
-        background-color: #C74451;
-        color: #ffffff;
-        text-decoration: none;
-        text-shadow: 0 1px #000;
-    }
+footer h5:hover, footer a:hover {
+    background-color: #C74451;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 1px #000;
+}
 
 .publish {
     text-align: right;
@@ -306,4 +306,72 @@ footer h5 {
 footer a {
     color: #C74451;
     text-decoration: underline;
+}
+
+@media all and (max-width: 768px) {
+    .social {
+        margin-top: 10px;
+    }
+
+    .featured-container img {
+        margin-left: 0;
+    }
+    .col-xs-12 {
+        padding: 0 0 0 5px;
+    }
+    .articles > article > div > time {
+        margin-bottom: 20px;
+    }
+    .about > div > div:nth-child(3) {
+        padding-top: 20px;
+    }
+    .articles {
+        padding: 15px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+    .collapse {
+        padding: 0;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .body-container {
+        padding: 0;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+    .collapse {
+        padding: 0;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .body-container {
+        padding: 0;
+    }
+
+    .featured-container img {
+        margin: 20px 0 0 0;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .collapse {
+        padding: 0;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .body-container {
+        padding: 0;
+    }
 }
