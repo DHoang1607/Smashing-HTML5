@@ -308,6 +308,8 @@ footer a {
     text-decoration: underline;
 }
 
+
+
 @media all and (max-width: 768px) {
     .social {
         margin-top: 10px;
@@ -325,9 +327,21 @@ footer a {
     .about > div > div:nth-child(3) {
         padding-top: 20px;
     }
+    .about a > h5 {
+        display: inline-block;
+    }
     .articles {
         padding: 15px;
     }
+    .blogroll ul {
+        -webkit-column-count: unset;
+        -moz-column-count: unset;
+        column-count: unset;
+    }
+    #demo {
+
+    }
+
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
@@ -341,6 +355,14 @@ footer a {
 
     .body-container {
         padding: 0;
+    }
+    .about a > h5 {
+        display: inline-block;
+    }
+        .blogroll ul {
+        -webkit-column-count: unset;
+        -moz-column-count: unset;
+        column-count: unset;
     }
 }
 
@@ -375,3 +397,4 @@ footer a {
         padding: 0;
     }
 }
+
