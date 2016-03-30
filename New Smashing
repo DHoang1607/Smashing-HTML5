@@ -94,7 +94,7 @@
                     </section>
                     <aside class="links">
                         <div class="row">
-                            <div class="blogroll col-xs-12 col-sm-9">
+                            <div class="blogroll col-xs-12  col-sm-9">
                                 <h5>blogroll</h5>
                                 <ul>
                                     <li><a href="#">HTML5 Doctor</a></li>
@@ -131,7 +131,8 @@
                         </div>
                         <div class="clearfix"></div>
                     </aside>
-                    
+   
+                   
                 </main>
                 <footer>
                     <div class="about">
@@ -159,4 +160,5 @@
     </div>
 </body>
 </html>
+
 
