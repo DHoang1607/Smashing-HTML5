@@ -2,6 +2,10 @@
     font-family: 'Trebuchet MS';
 }
 
+p {
+    margin: 0;
+}
+
 .clearfix {
     clear: both;
 }
@@ -16,7 +20,12 @@ body {
     color: #000305;
 }
 
-header {
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container > header {
     margin: 22px 0 24px 11px;
     display: inline-block;
 }
@@ -61,9 +70,9 @@ header {
     background-color: #c74451;
 }
 
-/*.navbar-collapse a {
-    padding-left: 15px;
-}*/
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
 
 .home {
     background-color: #C74451;
@@ -109,7 +118,6 @@ header {
 
     .featured-container p {
         font-size: 14px;
-        line-height: 1.429;
         margin: 10px 0 0 0;
     }
 
@@ -120,9 +128,9 @@ header {
         text-shadow: 0 1px #000;
     }
 
-.featured-container > div > div:first-of-type {
-    padding-right: 0;
-}
+    .featured-container > div > section:first-of-type {
+        padding-right: 0;
+    }
 
 .articles {
     background-color: #ffffff;
@@ -134,7 +142,6 @@ header {
     .articles article {
         padding: 21px 15px;
         font-size: 14px;
-        line-height: 1.429;
         border-bottom: 1px solid #EEEEEE;
     }
 
@@ -162,7 +169,6 @@ header {
         font-size: 20px;
         color: #C74451;
         font-weight: lighter;
-        line-height: 22px;
         padding: 0 1px;
     }
 
@@ -171,17 +177,14 @@ header {
         text-shadow: 0 1px #000;
     }
 
-.article-content {
-    padding: 0 0 0 10px;
-}
 
-.articles > article > div > time {
+ .articles > article > div > div {
     padding: 0 0 0 10px;
 }
 
 
 .blogroll {
-    line-height: 22px;
+    padding-right: 6px;
 }
 
     .blogroll ul {
@@ -193,10 +196,13 @@ header {
         padding: 0;
     }
 
+        .blogroll ul > li {
+            max-width: 184px;
+        }
 
 
 .social {
-    line-height: 22px;
+    padding-left: 18px;
 }
 
     .social ul {
@@ -219,7 +225,6 @@ header {
         text-decoration: none;
         color: #444;
         display: block;
-        line-height: 20px;
     }
 
     .links li {
@@ -236,7 +241,7 @@ header {
         font-size: 20px;
         color: #C74451;
         font-weight: lighter;
-        margin: 0 4px 4px 4px;
+        margin: 0 4px 4px 2px;
     }
 
 .blogroll a:hover, .social a:hover {
@@ -246,102 +251,92 @@ header {
 }
 
 .blogroll a, .social a {
-    padding: 5px;
+    padding: 4.75px 5px 4.75px 3px;
 }
 
-.about {
+footer > article {
     background-color: #ffffff;
     padding: 19px;
     margin-top: 28px;
     border-radius: 12px;
 }
 
-    .about a {
+    footer > article a {
         text-decoration: none;
     }
 
-    .about > div > div:first-child {
+    footer > article > div > div:first-child {
         padding: 1px 15px 0 16px;
     }
 
-    .about > div > div:nth-child(2) {
+    footer > article > div > div:nth-child(2) {
         padding: 7px 0 0 3px;
     }
 
-    .about > div > div:nth-child(3) {
+    footer > article > div > div:nth-child(3) {
         padding: 2px 13px 0 13px;
     }
 
-footer p {
-    font-size: 14px;
-    line-height: 1.429;
-    margin: 0;
-}
-
-footer h5 {
-    margin: 0;
-    font-size: 18px;
-    color: #C74451;
-    line-height: 24px;
-}
-
-.about a > h5 {
-    text-decoration: none;
-    font-weight: bold;
-    margin: 2px 0 0 1px;
-}
-
-footer h5:hover, footer a:hover {
-    background-color: #C74451;
-    color: #ffffff;
-    text-decoration: none;
-    text-shadow: 0 1px #000;
-}
-
-.publish {
-    text-align: right;
-    margin: 29px 0;
-}
+    footer > article h5 {
+        text-decoration: none;
+        font-weight: bold;
+        margin: 2px 0 0 1px;
+        font-size: 18px;
+        color: #C74451;
+        line-height: 24px;
+    }
 
 footer a {
     color: #C74451;
     text-decoration: underline;
 }
 
+    footer a:hover {
+        background-color: #C74451;
+        color: #ffffff;
+        text-decoration: none;
+        text-shadow: 0 1px #000;
+    }
 
+footer > p {
+    text-align: right;
+    margin: 29px 0;
+}
 
 @media all and (max-width: 768px) {
     .social {
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
     .featured-container img {
         margin-left: 0;
     }
+
     .col-xs-12 {
         padding: 0 0 0 5px;
     }
+
     .articles > article > div > time {
         margin-bottom: 20px;
     }
+
     .about > div > div:nth-child(3) {
         padding-top: 20px;
     }
+
     .about a > h5 {
         display: inline-block;
     }
+
     .articles {
         padding: 15px;
     }
+
     .blogroll ul {
         -webkit-column-count: unset;
         -moz-column-count: unset;
         column-count: unset;
     }
-    #demo {
-
-    }
-
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
@@ -356,10 +351,12 @@ footer a {
     .body-container {
         padding: 0;
     }
+
     .about a > h5 {
         display: inline-block;
     }
-        .blogroll ul {
+
+    .blogroll ul {
         -webkit-column-count: unset;
         -moz-column-count: unset;
         column-count: unset;
@@ -368,10 +365,6 @@ footer a {
 
 @media all and (min-width: 992px) and (max-width: 1200px) {
     .collapse {
-        padding: 0;
-    }
-
-    .container {
         padding: 0;
     }
 
@@ -397,4 +390,3 @@ footer a {
         padding: 0;
     }
 }
-
